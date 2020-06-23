@@ -4,7 +4,7 @@ import numpy as np
 
 class der:
     
-    def i_do_dr(data, variance_to_preserve):
+    def reduce_dimensions(data, variance_to_preserve):
         
         """data should be a dataframe and provided without class column and should already be pre-processed(SMOTE applied, if SMOTE is neccessary and definitely be converted to zero mean)"""
         
